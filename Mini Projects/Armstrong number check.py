@@ -1,6 +1,7 @@
-usr_inp = (input("Please Enter a number to check: "))
+usr_inp = input("Please Enter a number to check: ")
 proc_inp = int(usr_inp)
 inp_len = len(usr_inp)
+
 j= 0
 for i in range(inp_len):
     rem = int(proc_inp % 10)
